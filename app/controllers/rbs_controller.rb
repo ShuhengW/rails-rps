@@ -1,4 +1,4 @@
-class rbsController < ApplicationController
+class RbsController < ApplicationController
   def playrock
     @computer_choice = ["rock", "paper", "scissors"].sample
 
