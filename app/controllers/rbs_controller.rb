@@ -1,4 +1,9 @@
 class RbsController < ApplicationController
+
+  def homepage
+    render ({:template => "game_templates/homepage"})
+  end
+
   def playrock
     @computer_choice = ["rock", "paper", "scissors"].sample
 
